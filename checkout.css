@@ -1,0 +1,25 @@
+.checkout-container {
+  display:flex;
+  padding:40px;
+  gap:30px;
+}
+
+.left, .right {
+  background:#fff;
+  padding:20px;
+  width:50%;
+}
+
+input {
+  width:100%;
+  padding:10px;
+  margin-bottom:15px;
+}
+
+button {
+  width:100%;
+  padding:12px;
+  background:#ffd814;
+  border:none;
+  cursor:pointer;
+}

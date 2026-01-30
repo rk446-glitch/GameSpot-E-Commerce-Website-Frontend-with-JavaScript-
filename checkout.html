@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GameSpot Checkout</title>
+  <link rel="stylesheet" href="gamespot.css">
+  <link rel="stylesheet" href="checkout.css">
+  <script src="checkout.js" defer></script>
+</head>
+<body>
+
+<header class="navbar">
+  <div class="navlogo"><div class="logo"></div></div>
+</header>
+
+<div class="checkout-container">
+  <div class="left">
+    <h2>Delivery Address</h2>
+    <input id="address" placeholder="Enter address">
+
+    <h2>Payment Method</h2>
+    <label><input type="radio" name="pay"> Card</label>
+    <label><input type="radio" name="pay"> UPI</label>
+    <label><input type="radio" name="pay"> Wallet</label>
+  </div>
+
+  <div class="right">
+    <h3>Order Summary</h3>
+    <p>Total: ₹39,999</p>
+    <button id="placeOrderBtn">Place your order</button>
+  </div>
+</div>
+
+</body>
+</html>
+
